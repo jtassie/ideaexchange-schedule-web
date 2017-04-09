@@ -1,0 +1,1 @@
+java -jar schedule-web/target/*.war --server.port=9998

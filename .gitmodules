@@ -1,0 +1,3 @@
+[submodule "schedule-core"]
+	path = schedule-core
+	url = https://github.com/jtassie/ideaexchange-schedule-core.git
