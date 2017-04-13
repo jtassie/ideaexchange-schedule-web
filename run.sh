@@ -1,1 +1,1 @@
-java -jar schedule-web/target/*.jar --server.port=9998
+java -jar schedule-web/target/*.war --server.port=9998

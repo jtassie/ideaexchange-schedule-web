@@ -1,0 +1,158 @@
+11:11:35.392 [main] INFO  org.ideaexchange.Main - Starting spring application...
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.1.4.RELEASE)
+
+2017-04-11 11:11:36.076  INFO 1368 --- [           main] org.ideaexchange.Main                    : Starting Main on Lenovo-PC with PID 1368 (started by jtassie in c:\git\ideaexchange-schedule-web\schedule-web)
+2017-04-11 11:11:36.077 DEBUG 1368 --- [           main] o.s.boot.SpringApplication               : Loading source class org.ideaexchange.Main
+2017-04-11 11:11:36.130  INFO 1368 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77a55c43: startup date [Tue Apr 11 11:11:36 EDT 2017]; root of context hierarchy
+2017-04-11 11:11:36.134 DEBUG 1368 --- [           main] ationConfigEmbeddedWebApplicationContext : Bean factory for org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77a55c43: org.springframework.beans.factory.support.DefaultListableBeanFactory@7512b261: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,main]; root of factory hierarchy
+2017-04-11 11:11:36.712  INFO 1368 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2017-04-11 11:11:37.122 DEBUG 1368 --- [           main] ationConfigEmbeddedWebApplicationContext : Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@68045f14]
+2017-04-11 11:11:37.123 DEBUG 1368 --- [           main] ationConfigEmbeddedWebApplicationContext : Using ApplicationEventMulticaster [org.springframework.context.event.SimpleApplicationEventMulticaster@6c07270a]
+2017-04-11 11:11:37.700 DEBUG 1368 --- [           main] .t.TomcatEmbeddedServletContainerFactory : Code archive: C:\git\ideaexchange-schedule-web\schedule-web\target\schedule-web-1.0-SNAPSHOT.war
+2017-04-11 11:11:37.701 DEBUG 1368 --- [           main] .t.TomcatEmbeddedServletContainerFactory : Document root: C:\git\ideaexchange-schedule-web\schedule-web\target\schedule-web-1.0-SNAPSHOT.war
+2017-04-11 11:11:37.779  INFO 1368 --- [           main] .t.TomcatEmbeddedServletContainerFactory : Server initialized with port: 9998
+2017-04-11 11:11:38.042  INFO 1368 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-11 11:11:38.044  INFO 1368 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/7.0.54
+2017-04-11 11:11:39.941  INFO 1368 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-11 11:11:39.942  INFO 1368 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3814 ms
+2017-04-11 11:11:40.684 ERROR 1368 --- [ost-startStop-1] rvletContextInitializerLifecycleListener : Error starting Tomcat context: org.springframework.beans.factory.UnsatisfiedDependencyException
+2017-04-11 11:11:41.235  WARN 1368 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2017-04-11 11:11:41.245  INFO 1368 --- [           main] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/classes!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/classmate-1.0.0.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/commons-beanutils-1.9.2.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/commons-collections-3.2.1.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/commons-digester-2.1.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/hibernate-validator-5.0.3.Final.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jackson-annotations-2.3.3.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jackson-core-2.3.3.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jackson-databind-2.3.3.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jboss-logging-3.1.1.GA.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jcl-over-slf4j-1.7.5.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jstl-1.2.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/jul-to-slf4j-1.7.5.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/log4j-over-slf4j-1.7.5.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/logback-classic-1.1.2.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/logback-core-1.1.2.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/slf4j-api-1.7.5.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/snakeyaml-1.13.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-boot-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-boot-autoconfigure-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-boot-starter-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-boot-starter-logging-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-boot-starter-web-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-api-3.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-autotag-core-runtime-1.1.0.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-core-3.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-jsp-3.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-request-api-1.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-request-jsp-1.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-request-servlet-1.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-servlet-3.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/tiles-template-3.0.4.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib/validation-api-1.1.0.Final.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/spring-boot-starter-tomcat-1.1.4.RELEASE.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/tomcat-embed-core-7.0.54.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/tomcat-embed-el-7.0.54.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/tomcat-embed-logging-juli-7.0.54.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/tomcat-embed-jasper-7.0.54.jar!/, jar:file:/C:/git/ideaexchange-schedule-web/schedule-web/target/schedule-web-1.0-SNAPSHOT.war!/WEB-INF/lib-provided/ecj-P20140317-1600.jar!/]
+2017-04-11 11:11:41.256 ERROR 1368 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:135)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:120)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:952)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:941)
+	at org.ideaexchange.Main.main(Main.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:100)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:74)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:289)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:146)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:159)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:132)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': Unsatisfied dependency expressed through field 'messageConverters'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': Unsatisfied dependency expressed through field 'converters'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mappingJackson2HttpMessageConverter' defined in class path resource [org/springframework/boot/autoconfigure/web/HttpMessageConvertersAutoConfiguration$ObjectMappers.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]: Factory method 'mappingJackson2HttpMessageConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getOrderedBeansOfType(EmbeddedWebApplicationContext.java:367)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getServletContextInitializerBeans(EmbeddedWebApplicationContext.java:280)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext$1.onStartup(EmbeddedWebApplicationContext.java:213)
+	at org.springframework.boot.context.embedded.tomcat.ServletContextInitializerLifecycleListener.lifecycleEvent(ServletContextInitializerLifecycleListener.java:64)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration': Unsatisfied dependency expressed through field 'converters'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mappingJackson2HttpMessageConverter' defined in class path resource [org/springframework/boot/autoconfigure/web/HttpMessageConvertersAutoConfiguration$ObjectMappers.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]: Factory method 'mappingJackson2HttpMessageConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mappingJackson2HttpMessageConverter' defined in class path resource [org/springframework/boot/autoconfigure/web/HttpMessageConvertersAutoConfiguration$ObjectMappers.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]: Factory method 'mappingJackson2HttpMessageConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1275)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1180)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]: Factory method 'mappingJackson2HttpMessageConverter' threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 69 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.init(AbstractJackson2HttpMessageConverter.java:97)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.<init>(AbstractJackson2HttpMessageConverter.java:90)
+	at org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.<init>(MappingJackson2HttpMessageConverter.java:66)
+	at org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.<init>(MappingJackson2HttpMessageConverter.java:57)
+	at org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$ObjectMappers.mappingJackson2HttpMessageConverter(HttpMessageConvertersAutoConfiguration.java:73)
+	at org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$ObjectMappers$$EnhancerBySpringCGLIB$$59a81838.CGLIB$mappingJackson2HttpMessageConverter$0(<generated>)
+	at org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$ObjectMappers$$EnhancerBySpringCGLIB$$59a81838$$FastClassBySpringCGLIB$$dbb6ecb6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$ObjectMappers$$EnhancerBySpringCGLIB$$59a81838.mappingJackson2HttpMessageConverter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 70 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.util.DefaultIndenter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.doLoadClass(LaunchedURLClassLoader.java:168)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:134)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 85 common frames omitted
+
