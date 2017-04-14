@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar schedule-web/target/*.jar --server.port=$PORT
+web: java $JAVA_OPTS -jar schedule-web/target/*.war --server.port=$PORT
