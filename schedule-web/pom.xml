@@ -27,6 +27,19 @@
             <artifactId>schedule-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        
+        <dependency>
+          <groupId>com.auth0</groupId>
+          <artifactId>auth0-spring-mvc</artifactId>
+          <version>1.2.0</version>
+          <exclusions> 
+                  <!-- Auth0 includes a very outdated version of this artifact, which conflicts with the rest of our build -->
+                <exclusion>
+                  <groupId>org.springframework</groupId>
+                  <artifactId>spring-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
             
         <!-- Added to allow configuration as a web MVC, built as a WAR file (still executable) -->
         <dependency>
